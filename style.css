@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+}
+ .Hero-section{
+    padding: 3% 4%;
+    background-color: #775acb;
+ }
+ nav{
+     display: flex;
+     flex-direction: row;
+     color: white;
+     justify-content: space-between;
+ }
+ .logo{
+     flex: 1;
+ }
+ .nav-list{
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     font-weight: 500;
+     font-size: 1.2rem;
+     flex: 2;
+     align-items: center;
+     justify-content: flex-end;
+ }
+ .list-item{
+     margin-right: 5%;
+ }
+ .btn{
+    background: #55bdf0;
+    padding: 16px 26px;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    color: white;
+    border: none;
+ }
+ .hero{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin: 0% 4% 8%;
+     height: 62vh;
+ }
+ .img-left{
+     width: 52%;
+ }
+ .container{
+    margin: 0 auto;
+    width: 90%;
+ }
+ .right-section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     width: 40%;
+ }
+ .right-section h1{
+     font-size: 4.2rem;
+     line-height: 4.6rem;
+     font-weight: 600;
+     width: 100%;
+ }
+ .right-section p{
+     margin: 3% 0%;
+     font-size: 1.4rem;
+ }
+ .feature-section, .feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .feature i{
+    margin: 2%;
+ }
+ .f-1 i{
+    color: #ed8c43;
+ }
+ .f-2 i{
+    color: #81cd45;
+ }
+ .f-3 i{
+    color: #3f9cf2;
+ }
+ .feture_right{
+    color: black;
+ }
+ .feture_right h1{
+    font-size: 2.8rem;
+    line-height: 3rem;
+ }
+ .features{
+    margin: 7%;
+ }
+ .texts h2{
+    font-weight: 500;
+ }
+ .texts p{
+    font-weight: 300;
+    font-size: 1rem;
+ }
+ .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 10%;
+ }
+ .features-cards, .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .card img{
+    padding: 9%;
+    margin: 8%;
+    border-radius: 50%;
+ }
+ .clean-code{
+    background: #faeaeb;
+    width: 20%;
+ }
+ .Data-Analytics{
+    background: #fbf0ee;
+    width: 20%;
+ }
+ .Fully-Secured{
+    background-color: #e9f4f6;
+    width: 20%;
+ }
+ .Support{
+    width: 18%;
+    background-color: #f2e7f5;
+ }
+ .features-cards h1{
+    font-weight: 600;
+ }
+ .card{
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 26px;
+    width: 22%;
+ }
+ .card p{
+    margin: 7%;
+    text-align: center;
+ }
