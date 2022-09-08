@@ -48,7 +48,7 @@
      height: 62vh;
  }
  .img-left{
-     width: 52%;
+     width: 45%;
  }
  .container{
     margin: 0 auto;
@@ -149,4 +149,134 @@
  .card p{
     margin: 7%;
     text-align: center;
+ }
+
+ @media screen and (max-width: 1280px) and (min-width: 1040px) {
+   .right-section h1 {
+     font-size: 3.2rem;
+     line-height: 4rem;
+   }
+   .right-section p {
+      font-size: 1.2rem;
+   }
+   .feture_right h1{
+      font-size: 2.5rem;
+      line-height: 3rem;
+   }
+   .card{
+      width: 25%;
+   }
+ }
+ @media screen and (max-width: 1040px) and (min-width: 968px) {
+   .right-section h1 {
+     font-size: 2.8rem;
+     line-height: 3rem;
+   }
+   .right-section p {
+      font-size: 1rem;
+   }
+   .nav-list , .btn{
+      font-size: 1rem;
+   }  
+   .list-item{
+      margin-right: 4%;
+   }
+   .feture_right h1{
+      font-size: 2.2rem;
+      line-height: 3rem;
+   }
+   .cards{
+      margin: 4% 6%;
+   }
+   .card{
+      width: 25%;
+   }
+ }
+ @media screen and (max-width: 968px) and (min-width: 540px) {
+   .nav-list{
+      display: none;
+   }
+   .right-section h1 {
+     font-size: 2.2rem;
+     line-height: 3rem;
+   }  
+   .right-section p {
+      font-size: 0.8rem;
+   }
+   .hero , .feature-section{
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     justify-content: center;
+   }
+   .right-section {
+      width: 70%;
+      text-align: center;
+      margin-top: 5%;
+   }
+   .img-left{
+      width: 50%;
+   }
+   .nav-list , .btn{
+      font-size: 1rem;
+   }  
+   .list-item{
+      margin-right: 4%;
+   }
+   .cards{
+      margin: 4% 6%;
+      flex-wrap: wrap;
+   }
+   .card{
+      width: 33%;
+   }
+   .card h2{
+      font-size: 1.2rem;
+   }
+ }
+ @media screen and (max-width: 540px) and (min-width: 320px) {
+   .nav-list{
+      display: none;
+   }
+   .right-section h1 {
+     font-size: 2.5rem;
+     line-height: 3rem;
+   }
+   .right-section p {
+      font-size: 0.8rem;
+   }
+   .nav-list , .btn { 
+      font-size: 1rem;
+   }  
+   .list-item{
+      margin-right: 4%;
+   }
+   .hero , .feature-section{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+    .right-section {
+       width: 90%;
+       text-align: center;
+       margin-top: 5%;
+    }
+    .img-left{
+       width: 80%;
+    }
+    .features-cards h1{
+      text-align: center;
+    }
+    .cards{
+      margin: 4% 6%;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .card{
+      width: 80%;
+   }
+   .card h2{
+      font-size: 1.2rem;
+   }
  }
